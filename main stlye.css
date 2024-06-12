@@ -1,0 +1,863 @@
+
+ .navbar-brand img {
+    display: block;
+      width: 50%;
+      margin-top: -8px;
+      float: right;
+}
+  
+nav.navbar.bootsnav{
+      background-color: #000000e0;
+    position: fixed;
+    width: 100%;
+    border-bottom-color: transparent;
+}
+ 
+nav.navbar.bootsnav .navbar-toggle{
+    color:  white;
+    padding: 4px;
+    background-color: #ed2a28;
+}
+
+nav.navbar.bootsnav ul.nav > li > a {
+    color: white;
+  font-family:  serif;
+    font-weight: 500;
+    font-size: 16px;
+    float: left;
+    background-color: transparent;
+    outline: none;
+    margin-bottom: -2px;
+}
+nav.navbar.bootsnav ul.nav > li > a:hover{ 
+color:  #ed2a28;
+      
+}
+nav.navbar ul.nav li.active > a{
+    color: white;
+}
+
+nav.navbar.bootsnav ul.nav li.active > a {
+    color: white;
+     
+}
+nav.navbar.bootsnav ul.nav li.active > a:hover{
+    color:   #ed2a28 ;
+}
+ 
+
+.owl-carousel .owl-nav{
+    display: block !important;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    top: 43%;
+    left: 78px;
+    color: white!important;
+    font-size: 65px !important;
+     
+}
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    top: 43%;
+     right: 78px;
+    color: white!important;
+    font-size: 65px !important;
+     
+}
+ 
+
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background: transparent !important;
+}
+
+
+
+ 
+
+.slide #s-slid{
+     background-image: url( https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/banner-4.jpg);
+      padding: 15% 0%;
+    background-size: cover;
+    background-position: center;
+}
+.slide .owl-item.active h3{
+                animation-name: fadeInUp;
+                animation-duration: 1s;
+                animation-delay: 0.5;
+                animation-fill-mode: both;
+            } 
+.slide .owl-item.active h2{
+     animation-name: fadeInUp;
+                animation-duration: 1s;
+                animation-delay:  0.5;
+                animation-fill-mode: both;
+          }
+            
+            
+            .slide .owl-item.active p{
+                animation-name: fadeInUp;
+                animation-duration: 1s;
+                animation-delay: 0.5s;
+                animation-fill-mode: both;
+            } 
+ .slide .owl-item.active a{
+                animation-name: fadeInUp;
+                animation-duration: 1s;
+                animation-delay: 1s;
+                animation-fill-mode: both;
+            } 
+.slide .owl-item.active span{
+                animation-name: fadeInUp;
+                animation-duration: 1s;
+                animation-delay: 0.2s;
+                animation-fill-mode: both;
+            } 
+
+.slide #sn-slid{
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/banner-8.jpg);
+    padding: 15% 0%;
+    background-size: cover;
+    background-position: center;
+}
+ 
+.slide #ss-slid{
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/banner-7.jpg);
+    padding: 15% 0%;
+    background-size: cover;
+    background-position: center;
+}
+ 
+     
+        
+        
+     .divider {								/* minor cosmetics */
+            display: table; 
+            font-size: 15px; 
+              
+            width: 25%; 						/* divider width */
+            margin: 10px auto;					/* spacing above/below */
+        }
+.divider span i{
+    color: #ed2a28;
+}  
+        .divider span { display: table-cell; position: relative; }
+        .divider span:first-child, .divider span:last-child {
+            width: 50%;
+            top: 10px;							/* adjust vertical align */
+            -moz-background-size: 100% 2px; 	/* line width */
+            background-size: 100% 2px; 			/* line width */
+            background-position: 0 0, 0 100%;
+            background-repeat: no-repeat;
+        }
+        .divider span:first-child {				/* color changes in here */
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#fff));
+            background-image: -webkit-linear-gradient(180deg, transparent, #fff);
+            background-image: -moz-linear-gradient(180deg, transparent, #000);
+            background-image: -o-linear-gradient(180deg, transparent, #000);
+            background-image: linear-gradient(90deg, transparent,   #ed2a28);
+        }
+        .divider span:nth-child(2) {
+            color: #fff; padding: 0px 5px; width: auto; white-space: nowrap;
+        }
+        .divider span:last-child {				/* color changes in here */
+            background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(transparent));
+            background-image: -webkit-linear-gradient(180deg, #000, transparent);
+            background-image: -moz-linear-gradient(180deg, #000, transparent);
+            background-image: -o-linear-gradient(180deg, #000, transparent);
+            background-image: linear-gradient(90deg,  #ed2a28, transparent);
+        }
+
+
+.fst h3{
+    color: #ed2a28;
+    text-align: center;
+    font-size: 40px;
+     font-weight: 700;
+    padding-top: 30px;
+     font-family: serif;
+}
+ 
+
+.fst h2{
+    color: white;
+    font-size: 60px;
+      text-align: center;
+    font-weight: 700;
+    font-family: serif;
+}
+
+.fst p{
+    padding-top: 6px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+     font-family: serif;
+}
+
+.fst a{
+     
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: white;
+    padding: 12px 25px 12px 25px;
+    border-radius: 5px;
+}
+.fst a:hover{
+    text-decoration: none;
+}
+
+.btn a{
+    background-color: #ed2a28;
+    color: white;
+     font-size: 16px;
+}
+.btn a:hover{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+
+.fg{
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.fg h3{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-left: 8px;
+}
+.fg span{
+    color: #ed2a28;
+}
+.fg h5{
+    color: #ed2a28;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 11px;
+}
+
+.fg p{
+    color: black;
+    font-size: 16px;
+    padding-left: 11px;
+}
+
+.fg li {
+     display: inline-block;
+    padding: 10px;
+   
+    list-style: none;
+}
+.fg a{
+    color: black;
+    font-size: 14px;
+}
+.fg a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+.fg li i{
+    padding: 5px;
+    font-size: 17px;
+     color: #ed2a28;
+}
+
+.fg h6{
+    color: grey;
+    padding-left: 14px;
+    font-size: 14px;
+    font-style: italic;
+}
+.fg h4{
+    color: #ed2a28;
+    font-size: 18px;
+    font-style: initial;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+.im img{
+    float: right;
+    margin-top: 30px;
+}
+
+.hd h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;   
+    margin-top: 30px;
+    
+}
+.hd h1{
+    border-bottom: 2px solid #ed2a28;
+    width: 29%;
+}
+.hd span{
+    color: #ed2a28;
+}
+.hd{
+    color: black;
+    font-size: 16px;
+}
+
+ 
+.meta{
+    position: relative;
+     background-color: #ed2a28;
+    width: 100%;
+    text-align: center;
+}
+.kl{
+     
+    box-shadow: 0 0 5px 1px #b0b7bacf;
+    margin-bottom: 50px;
+  
+}
+ 
+.mg{
+    overflow: hidden;
+}
+.mg img{
+    transform: scale(1);
+    transition: 0.4s ease-in-out;
+}
+.mg img:hover{
+    transform: scale(1.5);
+}
+ 
+.kl span{
+    color: white;
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 14px;
+    
+}
+
+.pr span{
+    background-color: #ed2a28;
+    padding: 2px 10px 2px 10px;
+    font-size: 14px;
+    color: white;
+    
+}
+.pr span{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    
+}
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ls h5{
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+.ls span{
+    font-size: 14px;
+      padding-left: 10px;
+    color: #ed2a28;
+}
+.ls span:hover{
+    color: grey;
+}
+.ls p{
+    padding-top: 5px;
+    color: black;
+     padding-left: 10px;
+    font-size: 15px;
+    
+   
+}
+ 
+.lst{
+    background: white;
+     
+  border-top: 1px solid #e5e5e5;
+    
+}
+.lst p{
+
+    display: inline-block;
+    margin-left: 10px;
+    padding-top: 10px;
+    line-height: 25px;
+      font-size: 13px;
+}
+.lst li{
+    display: inline-block;
+    float: right;
+         
+}
+.lst li i{
+        color: #676767;
+    display: block;
+    
+    line-height: 35px;
+    font-size: 22px;
+    text-align: center;
+    width: 52px;
+     border-left: 1px solid #e5e5e5;
+    
+}
+
+.lst li i:hover{
+    background-color: #ed2a28;
+    color: white;
+}
+ 
+.lst li i{
+    color: gray;
+    float: right !important;
+}
+
+
+.bn{
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5848456203596e3d13e404b6/1524330446648-O7IQYLYNDANM78QYF5ZG/26+Elms+Rd+Kit+3L.jpg),linear-gradient(104deg, rgb(0 0 0 / 55%),rgb(11 5 11 / 55%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 4% 0%;
+}
+
+
+.tex{
+  background-color: #f91a18d1;
+  padding: 9% 8%;
+    
+    
+}
+
+.tex i{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-left: 58px;
+    display: inline-block;
+}
+ 
+.tex h3{
+    color: white;
+    font-size: 29px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.tex p{
+    color: white;
+    font-size: 15px;
+}
+
+
+.text-right i{
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.text-right h3{
+    color: white;
+    font-size: 29px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.text-right p{
+    color: white;
+    font-size: 15px;
+}
+
+.zn{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.zn h4{
+    font-size: 28px;
+    font-weight: bold !important;
+}
+.zn span{
+    color: #ed2a28;
+}
+.zn p{
+    color: black;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.line{
+    border: 1px solid #dbdbdb;
+    width: 200px;
+     margin-bottom: 5px;
+}
+
+.line1{
+    border: 1px solid #dbdbdb;
+    width: 150px;
+     margin-bottom: 5px;
+}
+
+.line2{
+    border: 1px solid #dbdbdb;
+    width: 100px;
+}
+.bh{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+. {
+    background-image: url(https://logicsforest.com/themeforest/idea-homes/ideahomes_demo_files/images/b-d-property.jpg);
+    background-size: cover;
+    padding: 35% 0%;
+    width: 100%;
+}
+
+
+.wh{
+    background-color:  white;
+    padding: 32px 30px;
+     position: absolute;
+    top: 38px;
+    right: 30px;
+    padding-top: 30px;
+}
+
+.wh h5{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 700 !important;
+    font-family: serif;
+}
+
+.wh h6{
+    text-align: justify-all;
+    padding-left: 5px;
+    margin-top: 18px;
+}
+.wh a{
+    color:  red;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.wh .line3{
+    border: 3px solid #ed2a28;
+    width: 70px;
+    line-height: 1px;
+    margin-left: 5px;
+     
+}
+
+.wh .line4{
+    border: 1px solid #ed2a28;
+    width: 160px;
+     margin-top: -2.4px;   
+    margin-left: 5px;
+     
+}
+
+
+.tt{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.tem{
+        border: 1px solid #dadada;
+    padding: 20px 45px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 35px;
+    background: #e6efff;
+    overflow: hidden;
+
+     
+}
+.tem h5{
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 25px;
+     padding-left: 5px;
+}
+.tem  p{
+    font-size: 15px;
+    color: black;
+    padding-left: 5px;
+    
+}
+
+
+.tem i{
+    font-size: 20px;
+    padding-left: 5px;
+    padding: 5px;
+    color: #ed2a28;
+}
+
+.tem .over{
+     background-color: #ed2a28;
+}
+.tt .tem .over{
+   
+    width: 100%;
+    position: absolute;
+    left: -366px;
+     transition: 1s; 
+    top: 0px;
+   bottom: 0px;
+   bottom: 0px;
+     
+    overflow: hidden;
+   
+}
+.tt .tem:hover .over{
+    left: 0px;
+}
+.tt .tem .over:hover{
+        transition: 1s; 
+     height: 100%;
+     
+}
+
+ 
+.over h4{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 75px;
+}
+
+.over p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: .25px;
+    padding: 45px 20px 110px 20px;
+}
+ 
+.hg{
+    transition: transform .2s;
+}
+.hg:hover{
+    
+    transform: scale(1.1);
+}
+
+.hg{
+    background: white;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+.hg :hover i{
+    color:  #ed2a28;
+}
+.hg:hover h5{
+    color: #ed2a28;
+}
+.hg:hover  a{
+    color: #ed2a28;
+}
+.df{
+    background-color: #ed2a28;
+    padding: 50px;
+}
+.df i{
+    font-size: 35px;
+    color: black;
+}
+ 
+.df h5{
+    color: black;
+    padding-top: 12px;
+    font-family: serif;
+}
+.df a{
+    color: black;
+     font-size: 15px;
+}
+
+.bgg{
+    background-color: black;
+    padding: 60px 30px;
+}
+ 
+.bgn img{
+     margin-left: 25px;
+}
+.bgn p{
+    font-size: 14px;
+    color: white;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+
+.bgn a{
+    margin-left: 20px;
+     color: white;
+}
+.bgn i{
+    padding: 5px;
+    color: white;
+}
+.bgn li{
+    top: 0px;
+    bottom: 0px;
+}
+.cnm h4{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-left: 25px;
+}
+.cnm i{
+   margin-left: 20px;
+    font-size: 20px;
+    border: 1px solid  #ed2a28;
+    padding: 6px;
+    color: white;
+    border-radius: 6px;
+    background-color: #ed2a28;
+}
+.cnm i:hover{
+    
+    background-color: transparent;
+    color: white;
+     border: 1px solid #fff;
+}
+
+
+.lsd input{
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 6px;
+    
+}
+
+.lsd a{
+    background-color: #ed2a28;
+    padding: 9.3px;
+     
+}
+.lsd i{
+     font-size: 20px !important;
+    
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.qk h5{
+    color: white;
+    font-size: 23px;
+    padding-top: 15px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.line5{
+    border: 2.5px solid #ed2a28;
+    width: 15%;
+    margin-left: 25px;
+      
+}
+.line6{
+    border: 1px solid #fd0301ab;
+    width: 40%;
+    margin-top: -2.8px;
+    margin-left: 25px;
+   
+}
+
+.qk li{
+    list-style: none;
+    margin-left: 20px;
+   padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+ .qk li{
+       border-bottom: 1px dashed #777777d4;
+     
+       width: 80%;
+}
+
+.qk li a{
+    color: #b1b1b1;
+    font-size: 16px;
+}
+.qk li a:hover{
+    text-decoration: none;
+    color: #ed2a28;
+}
+.qk i{
+    color: #b1b1b1;
+    font-size: 13px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
